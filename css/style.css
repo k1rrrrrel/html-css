@@ -1,13 +1,52 @@
+@font-face {
+    font-family: Lato-Thin;
+    src: url(../fonts/Lato-300.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato-400.ttf);
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url(../fonts/Lato-700.ttf);
+}
+
+@font-face {
+    font-family: Lato-Black;
+    src: url(../fonts/Lato-900.ttf);
+}
+
+@font-face {
+    font-family: Merriweather-Bold;
+    src: url(../fonts/Merriweather-700.ttf);
+}
+
+@font-face {
+    font-family: Merriweather-Black;
+    src: url(../fonts/Merriweather-900.ttf);
+}
+
 body {
     color: #000000;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: normal;
+    line-height: 25px;
 }
 
 .header-title {
     color: #005FA3;
+    font-family: Merriweather-Black;
+    font-size: 36px;
+    line-height: 50px;
 }
 
 .header-contact-text {
     color: #000000;
+    font-size: 13px;
+    line-height: 17px;
 }
 
 .header-contact-link {
@@ -18,6 +57,9 @@ body {
     color: #222222;
     text-decoration: none;
     text-transform: uppercase;
+    font-family: 'Lato-Bold';
+    font-size: 14px;
+    line-height: 17px;
 }
 
 .desc {
@@ -27,11 +69,16 @@ body {
 
 .desc-title {
     color: #FFFFFF;
+    font-family: 'Merriweather-Bold';
+    font-size: 48px;
+    line-height: 66px;
 }
 
 .desc-link {
     text-decoration: none;
     color: #FFFFFF;
+    font-size: 25px;
+    line-height: 35px;
 }
 
 .service {
@@ -40,14 +87,23 @@ body {
 
 .section-title {
     color: #BDBDBD;
+    font-family: 'Lato-Black';
+    font-size: 24px;
+    line-height: 33px;
 }
 
 .section-subtitle {
-    color: #333333
+    color: #333333;
+    font-family: 'Merriweather-Black';
+    font-size: 48px;
+    line-height: 69px;
 }
 
 .service-item-title {
-    color: #FFFFFF
+    color: #FFFFFF;
+    font-family: 'Lato-Black';
+    font-size: 24px;
+    line-height: 30px;
 }
 
 .service-item-link {
@@ -65,18 +121,28 @@ body {
 
 .about-desc {
     color: #000000;
+    font-family: 'Lato-Thin';
 }
 
 .about-item-title {
     color: #000000;
+    font-family: 'Lato-Bold';
+    font-size: 14px;
+    line-height: 19px;
 }
 
 .about-item-subtitle {
     color: #000000;
+    font-family: 'Lato-Black';
+    font-size: 55px;
+    line-height: 66px;
 }
 
 .about-item-link {
     color: #005FA3;
+    font-family: 'Lato-Bold';
+    font-size: 14px;
+    line-height: 17px;
 }
 
 .clients {
@@ -93,14 +159,18 @@ body {
 
 .reviews-item-text {
     color: #000000;
+    font-family: 'Lato-Thin';
 }
 
 .reviews-item-author {
     color: #000000;
+    font-family: 'Lato-Black';
 }
 
 .reviews-item-position {
     color: #4F4F4F;
+    font-size: 14px;
+    line-height: 19px;
 }
 
 .advantages {
@@ -109,6 +179,10 @@ body {
 
 .advantages-item-text {
     color: #000000;
+    font-family: 'Lato-Bold';
+    font-size: 36px;
+    line-height: 48px;
+
 }
 
 .footer {
@@ -118,15 +192,25 @@ body {
 
 .footer-title {
     color: #FFFFFF;
+    font-family: 'Merriweather-Bold';
+    font-size: 48px;
+    line-height: 69px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 }
 
 .footer-subtitle {
     color: #FFFFFF;
+    font-family: 'Lato-Thin';
 }
 
 .footer-item-link {
     text-decoration: none;
     color: #FFFFFF;
+    font-family: 'Lato-Thin';
+    font-size: 21px;
+    line-height: 29px;
 }
 
 .rights {
@@ -135,4 +219,7 @@ body {
 
 .rights-text {
     color: #000000;
+    font-family: 'Lato-Thin';
+    font-size: 14px;
+    line-height: 19px;
 }
