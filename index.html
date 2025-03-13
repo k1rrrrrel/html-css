@@ -177,15 +177,15 @@
                 <p class="section-subtitle advantages-subtitle">Мы предлагаем</p>
                 <ul class="advantages-list">
                     <li class="advantages-item">
-                        <img src="./img/quality.svg" alt="quality">
+                        <img class="advantages-item-img" src="./img/quality.svg" alt="quality" width="132" height="126">
                         <p class="advantages-item-text">Качество</p>
                     </li>
                     <li class="advantages-item">
-                        <img src="./img/speed.svg" alt="speed">
+                        <img class="advantages-item-img" src="./img/speed.svg" alt="speed" width="132" height="126">
                         <p class="advantages-item-text">Оперативность</p>
                     </li>
                     <li class="advantages-item">
-                        <img src="./img/expert.svg" alt="expert">
+                        <img class="advantages-item-img" src="./img/expert.svg" alt="expert" width="132" height="126">
                         <p class="advantages-item-text">Экспертность</p>
                     </li>
                 </ul>
@@ -215,10 +215,23 @@
                         </ul>
                     </div>
                     <div class="half-width wrp-padding">
-                        <div>
-                            форма
-                            <button type="button">Отправить сообщение</button>
-                        </div>
+                        <form action="#">
+                            <div class="form-contact-wrp">
+                                <label>
+                                    <span class="input-label">Имя</span>
+                                    <input type="text" placeholder="Иван">
+                                </label>
+                                <label>
+                                    <span class="input-label">Телефон</span>
+                                    <input type="tel" placeholder="+7-999-999-99-99">
+                                </label>
+                            </div>
+                            <label>
+                                <span class="input-label">Сообщение</span>
+                                <textarea placeholder="Ваше сообщение"></textarea>
+                            </label>
+                            <button class="send-question" type="submit">Отправить сообщение</button>
+                        </form>
                     </div>
                 </div>
             </div>

@@ -66,6 +66,7 @@ body {
     font-family: 'Merriweather-Black';
     font-size: 36px;
     line-height: 50px;
+    margin: 0 0 0 30px;
 }
 
 .header-contact-text {
@@ -265,6 +266,11 @@ body {
     min-height: 60px;
     background-color: #005FA3;
     border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+    font-size: 18px;
+    line-height: inherit;
 }
 
 .review-slider-button {
@@ -317,11 +323,11 @@ body {
 
 .advantages {
     background: #EBEBEB;
-    padding: 102px 0 116px;
+    padding: 102px 0 75px;
 }
 
 .advantages-subtitle {
-    margin: 0 0 103px;
+    margin: 0 0 27px;
 }
 
 .advantages-list {
@@ -331,10 +337,17 @@ body {
 
 .advantages-item{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    width: 348px;
+    min-height: 316px;
+    padding: 80px 0 37px;
+    box-sizing: border-box;
+}
+
+.advantages-item-img {
+    width: 132px;
+    min-height: 126px;
 }
 
 .advantages-item-text {
@@ -348,6 +361,7 @@ body {
 .footer {
     background-color: #2f2f2f;
     background-image: url(../img/header-background.png);
+    background-size: cover;
 }
 
 .footer-wrp {
@@ -373,7 +387,6 @@ body {
 
 .footer-list {
     display: flex;
-    justify-content: space-between;
 }
 
 .footer-item-link {
@@ -382,6 +395,77 @@ body {
     font-family: 'Lato-Thin';
     font-size: 21px;
     line-height: 29px;
+}
+
+
+.form-contact-wrp {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 35px;
+}
+
+.input-label {
+    display: block;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 22px;
+    margin: 0 0 15px;
+}
+
+input {
+    width: 255px;
+    padding: 4px 0 15px;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    background-color: transparent;
+    font-family: 'Lato-Thin';
+    font-size: 21px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+input::placeholder {
+    font-family: 'Lato-Thin';
+    font-size: 21px;
+    line-height: 29px;
+    color: #BDBDBD;
+}
+
+textarea {
+    width: 100%;
+    min-height: 105px;
+    padding: 4px 0 15px;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    background-color: transparent;
+    box-sizing: border-box;
+    margin: 0 0 50px;
+    font-family: 'Lato-Thin';
+    font-size: 21px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+textarea::placeholder {
+    font-family: 'Lato-Thin';
+    font-size: 21px;
+    line-height: 29px;
+    color: #BDBDBD;
+}
+
+.send-question {
+    display: block;
+    font-family: 'Lato';
+    font-size: 18px;
+    line-height: inherit;
+    color: #FFFFFF;
+    width: 270px;
+    min-height: 60px;
+    background-color: #005FA3;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0 0 0 auto;
 }
 
 .rights {
